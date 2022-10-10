@@ -29,5 +29,13 @@ public class Card {
         result = 31 * result + value.hashCode();
         return result;
     }
+
+    public String showString() {
+        return this.value.getNumber() + this.type.name();
+    }
+
+    public Integer getNumber() {
+        return this.value.getNumber();
+    }
 }
 

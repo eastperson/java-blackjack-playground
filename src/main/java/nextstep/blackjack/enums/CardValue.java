@@ -8,4 +8,8 @@ public enum CardValue {
     CardValue(Integer number) {
         this.number = number;
     }
+
+    public Integer getNumber() {
+        return this.number;
+    }
 }
